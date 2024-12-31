@@ -261,47 +261,6 @@ button:hover {
     }
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    .container {
-        padding: 30px;
-    }
-
-    p {
-        font-size: 1.3rem;
-    }
-
-    button {
-        font-size: 1.2rem;
-        padding: 12px 25px;
-    }
-
-    .message-content {
-        width: 90%;
-        max-width: 90%;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        font-size: 1.1rem;
-    }
-
-    .message-content {
-        width: 90%;
-        max-width: 90%;
-        padding: 15px;
-    }
-}
-
 
 
 .firework {
@@ -363,5 +322,102 @@ button:hover {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+
+    .message-content {
+        width: 90%;
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .message-content {
+        width: 90%;
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .message-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .message-content {
+        padding: 10px;
     }
 }
